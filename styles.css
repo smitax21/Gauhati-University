@@ -2,6 +2,11 @@ body {
   margin: 0;
 }
 
+.main-container {
+  height: auto;
+  width: 100vw;
+}
+
 .navbar {
   --bs-navbar-padding-y: 0;
 }
@@ -45,4 +50,18 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.btn {
+  background-color: teal;
+}
+
+.footer {
+  height: 10vh;
+  width: 100vw;
+}
+
+.campus-box {
+  height: 250px;
+  width: 250px;
 }
