@@ -61,7 +61,22 @@ li {
   width: 100vw;
 }
 
-.campus-box {
+.campus-container {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-around;
+
+  padding: 30px;
+}
+
+.img-container {
   height: 250px;
   width: 250px;
+  padding: 10px;
+}
+
+@media only screen and(max-width: 500) {
+  body {
+    background-color: aquamarine;
+  }
 }
