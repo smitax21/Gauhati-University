@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0;
+}
+
+.nav {
+  background-color: teal;
+}
+
+.container {
+  display: flex;
+}
+
+/* img {
+  height: 50px;
+  width: 50px;
+} */
+
+.navbar-brand {
+  display: flex;
+  /* margin-bottom: -10px; */
+}
+
+li {
+  list-style: none;
+}
+
+.nav-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
