@@ -30,6 +30,7 @@ body {
 
 .info-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -69,6 +70,14 @@ li {
   padding: 30px;
 }
 
+.campus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  /* padding: 30px; */
+}
+
 .img-container {
   height: 250px;
   width: 250px;
@@ -77,7 +86,28 @@ li {
 
 @media only screen and(max-width: 600) {
   .nav {
+    padding-right: 0;
     height: auto;
     width: 100vw;
+  }
+
+  body {
+    width: auto;
+  }
+
+  .info-container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+
+  .campus-container {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0%;
+  }
+
+  .about-GU {
+    padding: auto;
   }
 }
