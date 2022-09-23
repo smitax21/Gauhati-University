@@ -1,10 +1,12 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 .main-container {
   height: auto;
   width: 100vw;
+  padding: 10px;
 }
 
 .navbar {
@@ -35,7 +37,7 @@ body {
 }
 
 .about-GU {
-  padding: 70px;
+  padding: 20px;
 }
 
 .navbar-brand {
@@ -70,13 +72,13 @@ li {
   padding: 30px;
 }
 
-.campus-container {
+/* .campus-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
-  /* padding: 30px; */
-}
+  /* padding: 30px; 
+} */
 
 .img-container {
   height: 250px;
@@ -105,9 +107,5 @@ li {
     flex-direction: column;
     justify-content: center;
     padding-right: 0%;
-  }
-
-  .about-GU {
-    padding: auto;
   }
 }
